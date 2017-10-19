@@ -52,6 +52,14 @@ nav {
         animation: fade-out-right 1s ease-out forwards 1;
         pointer-events: none;
     }
+    .top-nav-button-click {
+        animation: fade-out-top 1s ease-out forwards 1;
+        pointer-events: none;
+    }
+    .bottom-nav-button-click {
+        animation: fade-out-bottom 1s ease-out forwards 1;
+        pointer-events: none;
+    }
     .top-nav-button {
         padding-top: 20px;
     }
@@ -108,8 +116,9 @@ main {
         animation-delay: 13s;
         opacity: 0;
         font-family: 'Dancing Script', cursive;
-        padding-bottom: 40px;
+        //padding-bottom: 40px;
         font-size: 50px;
+        height: 100px;
     }
     .last-line {
         animation: letter-spacing-in 1s ease-out forwards 1;
@@ -120,6 +129,20 @@ main {
         padding-right: 10px;
         font-size: 30px;
     }
+}
+
+.top-nav-hide {
+    transition: all 0.5s;
+    animation: fade-out .5s ease-in forwards 1;
+    transform: scale(2);
+    transform-origin: top center;
+}
+
+.bottom-nav-hide {
+    transition: all 0.5s;
+    animation: fade-out .5s ease-in forwards 1;
+    transform: scale(2);
+    transform-origin: bottom center;
 }
 
 .right-nav-hide {
