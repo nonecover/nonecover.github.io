@@ -1,0 +1,88 @@
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-right: 2px solid transparent;
+    }
+    50% {
+        border-right: 2px solid black;
+    }
+}
+
+@keyframes show {
+    from,
+    to {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+@keyframes letter-spacing-in {
+    0% {
+        letter-spacing: 100px;
+        opacity: 0;
+    }
+    100% {
+        letter-spacing: 4px;
+        opacity: 1;
+    }
+}
+
+@keyframes letter-spacing-on-hover {
+    0% {
+        letter-spacing: 4px;
+    }
+    100% {
+        letter-spacing: 10px;
+    }
+}
+
+@keyframes letter-spacing-on {
+    0% {
+        letter-spacing: 10px;
+    }
+    100% {
+        letter-spacing: 4px;
+    }
+}
+
+@keyframes fade-out-left {
+    0% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(-1000px);
+        letter-spacing: 100px;
+    }
+}
+
+@keyframes fade-out-right {
+    0% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(1000px);
+        letter-spacing: 100px;
+    }
+}
+
+@keyframes fade-out {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

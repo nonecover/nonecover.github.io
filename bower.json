@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "authors": [
+    "<adam.jakomulski@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "less": "^2.7.2",
+    "jquery": "^3.2.1"
+  }
+}
